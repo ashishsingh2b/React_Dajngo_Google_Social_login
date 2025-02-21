@@ -1,0 +1,36 @@
+# Ignore Python & Django files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+*.log
+.env
+venv/
+virtualenv/
+instance/
+media/
+staticfiles/
+
+# Ignore Node.js & React files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.vscode/
+.DS_Store
+package-lock.json
+yarn.lock
+build/
+dist/
+
+# Ignore JetBrains IDE settings
+.idea/
+
+# Ignore Git submodules if not needed
+.gitmodules
